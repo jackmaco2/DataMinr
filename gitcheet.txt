@@ -1,0 +1,4 @@
+git remote -v           :       git litst the name of the remote as well as its location
+git push origin [branch]:       pushes your work to remote, origin, 
+
+go away im not going to work on it right now, i know nothing about this so far and yeah, i need to learn a bunch
