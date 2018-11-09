@@ -1,5 +1,5 @@
 # DataMinr
-python program that does all the data mining for you!
+Python program that does all the data mining for you!
 
 You will need to create some accounts and change the code a bit if you want the program to work.
 Here are the links to do so.
