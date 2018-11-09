@@ -8,14 +8,24 @@ MetaJack Tools
 By Jack Countryman & Nate Wilwerding
 '''
 
+import sys
+import subprocess
+import getopt
+
 def useage() :
     print ("DataMinr by Metajack")
     print ("\n")
     print ("Usage: dataminr.py -n target_name [modifiers]")
+    print ("-n --name            -target name")
     print ("-c --city            -city of residence")
     print ("-S --State           -state of residence")
     print ("-s --school          -current or alma mater")
     print ("-w --workplace       -current or former place of employment")
+    print ("-a --age             -target's age")
+    print ("-A --AgeRange        -takes in age range \"[low]-[high]\"")
+    print ("-b --birthday        -target's birthday [MM/DD/YYYY]")
+    print ("-g --gender          -target's gender [M or F]")
+    print ("-h --hometown        -where the user is from originally")
     print ("\n")
     print ("Examples:")
     print ("dataminr.py -c chicago -S Chicago -s University of Chicago -w Hayneedle")
@@ -31,8 +41,22 @@ def useage() :
     if (value == 4) :
             strang = "We're all living in each other's paranoia.\n\t\t\t -Elliot Alderson"
     print ("\n" + strang)
+    sys.exit(0)
 
 def main() :
-        useage()
+    global input
+    global name
+    global city
+    global state
+    global school
+    global workplace
+    global age
+    global AgeRange
+    global birthday
+    global gender
+    global hometown
+
+    useage()
+
 
 main() 
