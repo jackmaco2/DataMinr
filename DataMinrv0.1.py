@@ -5,7 +5,7 @@ Reading:
 Article on Beautiful soup (web scraping package for python) : https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe
 
 MetaJack Tools
-By Jack Countryman
+By Jack Countryman & Nate Wilwerding
 '''
 
 def useage() :
